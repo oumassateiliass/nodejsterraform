@@ -14,7 +14,7 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-  workingDirectory: '$(Build.SourcesDirectory)/nodejsprojectt'
+  workingDirectory: '$(Build.SourcesDirectory)/nodejsproject'
 
 - task: CopyFiles@2
   inputs:
